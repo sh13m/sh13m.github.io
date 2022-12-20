@@ -1,0 +1,37 @@
+html {
+    font-size: 12px; /* px means "pixels": the base font size is now 10 pixels high */
+    font-family: "Inter", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+    background-color: #5e99d0;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgb(37, 77, 66);
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 1px grey;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 670px;
+}
+
+p,
+li {
+    font-size: 20px;
+    line-height: 1.75;
+    letter-spacing: 1px;
+    color: white;
+}
