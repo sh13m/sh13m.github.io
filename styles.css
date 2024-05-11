@@ -25,6 +25,7 @@ a:hover {
 ul {
     list-style-type: none;
     padding-left: 10pt;
+    padding-right: 10pt;
 }
 
 header {
