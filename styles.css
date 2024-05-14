@@ -32,9 +32,9 @@ a:hover {
 }
 
 ul {
-    list-style-type: none;
-    padding-left: 10pt;
-    padding-right: 10pt;
+    list-style-type: circle;
+    padding-left: 16pt;
+    padding-right: 16pt;
 }
 
 header {
@@ -86,17 +86,4 @@ th {
 
 td {
     background-color: #2e2e2e;
-}
-
-.project-list {
-    list-style-type: circle; /* Apply circle list style to list items */
-}
-
-.project-item {
-    display: flex;
-    justify-content: space-between;
-}
-
-.project-details a {
-    margin-right: 10px;
 }
