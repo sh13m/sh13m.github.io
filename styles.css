@@ -1,3 +1,11 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* to stop the mobile resizing that occurs normally */
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+  }
+
 /* Global Styles */
 
 body {
