@@ -59,7 +59,7 @@ header nav a {
 section {
     margin: 32px;
     padding: 12px;
-    border: 1px solid #2d2c2c;
+    border: 2px solid #2d2c2c;
     border-radius: 12px;
     background-color: #1d1c1c;
 }
@@ -86,4 +86,14 @@ th {
 
 td {
     background-color: #2e2e2e;
+}
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-color: #121111; /* Match your background color */
 }
